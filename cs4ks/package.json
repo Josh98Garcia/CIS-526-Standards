@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Josh98Garcia/CIS-Codio-Standards.git"
+    "url": "git+https://github.com/Josh98Garcia/CIS-526-Standards.git"
   },
   "author": "Josh Garcia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Josh98Garcia/CIS-Codio-Standards/issues"
+    "url": "https://github.com/Josh98Garcia/CIS-526-Standards/issues"
   },
-  "homepage": "https://github.com/Josh98Garcia/CIS-Codio-Standards#readme"
+  "homepage": "https://github.com/Josh98Garcia/CIS-526-Standards#readme"
 }
