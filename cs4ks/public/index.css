@@ -1,0 +1,75 @@
+/** site.js 
+ * You should add your CSS code to this file.  
+ * See the assignment description in Guide for what
+ * your code needs to accomplish.
+ */
+
+/** make consolas font */
+@media (min-width: 700px) {
+  head {
+  }
+  body {
+    background-color: #f7f0fa;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 18px;
+    font-family: consolas, sans-serif;
+  }
+  body p{
+    background-color: #dbceea;
+    border-radius: 10px;
+    padding: .5rem;
+  }
+  .htbr {
+    background-color: #dbceea;
+    padding: .5rem;
+    border: black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 155px; /*increas when new button added*/
+  }
+  .button {
+    float: left;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .5rem;
+    background-color: #a86cc1;
+    cursor: pointer;
+    margin: .5rem;
+  }
+}
+@media (max-width: 700px) {
+  head {
+  }
+  body {
+    background-color: #f7f0fa;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 18px;
+    font-family: consolas, sans-serif;
+  }
+  body p{
+    background-color: #dbceea;
+    border-radius: 10px;
+    padding: .5rem;
+  }
+  .htbr {
+    background-color: #dbceea;
+    padding: .5rem;
+    border: black;
+    border-radius: 5px;
+    display: inline-block;
+    width: 155px; /*increas when new button added*/
+  }
+  .button {
+    float: left;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: .5rem;
+    background-color: #a86cc1;
+    cursor: pointer;
+    margin: .5rem;
+  }
+}

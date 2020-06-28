@@ -1,0 +1,196 @@
+/** site.js 
+ * You should add your CSS code to this file.  
+ * See the assignment description in Guide for what
+ * your code needs to accomplish.
+ */
+
+/** make consolas font */
+ @media (min-width: 700px) {
+  head {
+  }
+  body {
+    background-color: #f7f0fa;
+    font-size: 18px;
+    font-family: consolas, sans-serif;
+  }
+  .table {
+    display: grid;
+    grid-template-columns: 20% 40% 20% 20%;
+    grid-template-rows: auto;
+    border: 1px solid black;
+    grid-template-areas:
+      "Identifier Standard Subconcept Practices"
+  }
+  .ident {
+    grid-area: Identifier;
+    background-color: #C2AFDA;
+    border: 1px solid black;
+    position: sticky;
+  }
+  .stand {
+    grid-area: Standard;
+    background-color: #C2AFDA;
+    border: 1px solid black;
+    position: sticky;
+  }
+  .subcon {
+    grid-area: Subconcept;
+    background-color: #C2AFDA;
+    border: 1px solid black;
+    position: sticky;
+  }
+  .pract {
+    grid-area: Practices;
+    background-color: #C2AFDA;
+    border: 1px solid black;
+    position: sticky;
+  }
+  .identRow {
+    grid-area: Identifier;
+    border: 1px solid black;
+    grid-row: unset;
+  }
+  .standRow {
+    grid-area: Standard;
+    border: 1px solid black;
+    grid-row: unset;
+    display: none;
+  }
+  .subconRow {
+    grid-area: Subconcept;
+    border: 1px solid black;
+    grid-row: unset;
+  }
+  .practRow {
+    grid-area: Practices;
+    border: 1px solid black;
+    grid-row: unset;
+  }
+  .both{
+    grid-area: Standard;
+    border: 1px solid black;
+    grid-row: unset;
+    /*display: none;*/
+  }
+  .more{
+    color: graytext;
+    grid-row: unset;
+    border: 1px solid black;
+    display: none;
+  }
+  .less{
+    color: graytext;
+    grid-row: unset;
+    border: 1px solid black;
+    display: none;
+  }
+}
+@media (max-width: 700px) {
+  head {
+  }
+  body {
+    background-color: #f7f0fa;
+    font-size: 18px;
+    font-family: consolas, sans-serif;
+  }
+  .table {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: auto;
+    padding: 1rem;
+    /*border: 1px solid black;*/
+  }
+  /*Unused for mobile viewing.*/
+  .ident {
+    grid-area: Identifier;
+    background-color: #a86cc1;
+    border: 1px solid black;
+    padding: 1rem;
+    display: none;
+  }
+  .stand {
+    grid-area: Standard;
+    background-color: #a86cc1;
+    border: 1px solid black;
+    display: none;
+  }
+  .subcon {
+    grid-area: Subconcept;
+    background-color: #a86cc1;
+    border: 1px solid black;
+    display: none;
+  }
+  .pract {
+    grid-area: Practices;
+    background-color: #a86cc1;
+    border: 1px solid black;
+    display: none;
+  /*Unused for mobile viewing.*/
+  }
+  .identRow {
+    grid-area: Identifier;
+    background-color: #C2AFDA;
+    border: 1px solid black;
+    grid-row: unset;
+    padding: .25rem;
+  }
+  .standRow {
+    grid-area: Standard;
+    border: 1px solid black;
+    grid-row: unset;
+    display: none;
+    padding: .25rem;
+  }
+  .subconRow {
+    grid-area: Subconcept;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    grid-row: unset;
+    display: none;
+    padding: .25rem;
+  }
+  .practRow {
+    grid-area: Practices;
+    border: 1px solid black;
+    grid-row: unset;
+    display: none;
+    padding: .25rem;
+  }
+  .both{
+    grid-area: Practices;
+    border: 1px solid black;
+    grid-row: unset;
+    display: none;
+    padding: .25rem;
+  }
+  .more{
+    color: graytext;
+    grid-row: unset;
+    grid-column-start: 2;
+    display: none;
+  }
+  .less{
+    color: graytext;
+    grid-row: unset;
+    grid-column-start: 2;
+    display: none;
+  }
+  .standRow.active{
+    display: block;
+  }
+  .subconRow.active{
+    display: block;
+  }
+  .practRow.active{
+    display: block;
+  }
+  .both.active{
+    display: block;
+  }
+  .more.active{
+    display: block;
+  }
+  .less.active{
+    display: block;
+  }
+}

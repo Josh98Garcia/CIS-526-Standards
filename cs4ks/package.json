@@ -1,0 +1,20 @@
+{
+  "name": "media-server",
+  "version": "1.0.0",
+  "description": "Display the KSU CSU main site and Standards.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josh98Garcia/CIS-Codio-Standards.git"
+  },
+  "author": "Josh Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Josh98Garcia/CIS-Codio-Standards/issues"
+  },
+  "homepage": "https://github.com/Josh98Garcia/CIS-Codio-Standards#readme"
+}
